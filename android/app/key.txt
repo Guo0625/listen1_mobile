@@ -1,0 +1,8 @@
+    signingConfigs {
+        release {
+            keyAlias 'ifunandroid'
+            keyPassword 'ifun2018'
+            storePassword 'ifun2018'
+            storeFile file(ifungames.keystore')
+        }
+    }
