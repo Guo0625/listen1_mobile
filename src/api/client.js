@@ -1,8 +1,9 @@
 import qq from './provider/qq';
 import netease from './provider/netease';
 import xiami from './provider/xiami';
+import migu from './provider/migu';
 
-const availableProvider = [netease, qq, xiami];
+const availableProvider = [netease, qq, xiami, migu];
 const enabledProvider = availableProvider;
 
 function getPlatformArray() {

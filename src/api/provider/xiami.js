@@ -134,7 +134,7 @@ async function requestAPI(api, params) {
     headers: {
       cookie: `xm_sg_tk=${token.xm_sg_tk}; xm_sg_tk.sig=${
         token['xm_sg_tk.sig']
-      }`,
+        }`,
     },
   });
 
@@ -263,7 +263,7 @@ function search(keyword, curpage) {
       const tracks = response.data.songs.map(item =>
         xmConvertSong(item, 'artist_name')
       );
-
+      // console.log(tracks, data);
       return {
         result: tracks,
         total: response.data.total,

@@ -101,6 +101,7 @@ function search(keyword, page) {
       return response.text();
     })
     .then(textData => {
+      // console.log('QQ音乐 textData', textData);
       const text = textData.slice('jsonp4('.length, -')'.length);
       const jsonData = JSON.parse(text);
       const tracks = jsonData.data.song.list.map(item => qqConvertSong(item));

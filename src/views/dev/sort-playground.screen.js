@@ -30,6 +30,13 @@ const playlistArray = [
     id: 'myplaylist_be85639a-413c-30d0-51f5-1149b1289dfe',
     source_url: 'http://www.xiami.com/collect/927839351',
   },
+  {
+    cover_img_url:
+      'http://pic.xiami.net/images/collect/351/51/927839351_1563199389_GWEK.jpg?x-oss-process=image/resize,m_fill,limit_0,s_330/quality,q_80',
+    title: '珍藏旧唱片——上华',
+    id: 'myplaylist_be85639a-413c-30d0-51f5-1149b1289dfe',
+    source_url: 'http://www.xiami.com/collect/927839351',
+  },
 ];
 
 class SortPlayground extends React.Component {

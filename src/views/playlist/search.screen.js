@@ -52,7 +52,7 @@ class Search extends React.Component {
 
     return false;
   }
-  onRefresh = () => {};
+  onRefresh = () => { };
   doSearch(text, page) {
     let searchPage = page;
 
